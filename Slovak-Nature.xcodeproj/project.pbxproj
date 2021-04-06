@@ -7,37 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A5780082617859C00E607A4 /* nationalParksData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A5780072617859C00E607A4 /* nationalParksData.json */; };
-		1A57800C261786BA00E607A4 /* NationalPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57800B261786BA00E607A4 /* NationalPark.swift */; };
-		1A5780102617890C00E607A4 /* NationalParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57800F2617890C00E607A4 /* NationalParkDetailView.swift */; };
-		1A57801226178AAC00E607A4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57801126178AAC00E607A4 /* MapView.swift */; };
-		1A8878EC26178047008F844D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8878EB26178047008F844D /* ModelData.swift */; };
 		1A9537512617610600E28E18 /* Slovak_NatureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9537502617610600E28E18 /* Slovak_NatureApp.swift */; };
 		1A9537532617610600E28E18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9537522617610600E28E18 /* ContentView.swift */; };
 		1A9537552617610700E28E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9537542617610700E28E18 /* Assets.xcassets */; };
 		1A9537582617610700E28E18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9537572617610700E28E18 /* Preview Assets.xcassets */; };
-		1A953764261763FA00E28E18 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A953763261763FA00E28E18 /* CustomShape.swift */; };
-		1A99918926185B2B009B70EF /* MapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A99918826185B2B009B70EF /* MapDetailView.swift */; };
-		1A99918B26185D12009B70EF /* AdditionalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A99918A26185D12009B70EF /* AdditionalInfoView.swift */; };
-		1AD2AC292617BB4D0094B842 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD2AC282617BB4D0094B842 /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A5780072617859C00E607A4 /* nationalParksData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nationalParksData.json; sourceTree = "<group>"; };
-		1A57800B261786BA00E607A4 /* NationalPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalPark.swift; sourceTree = "<group>"; };
-		1A57800F2617890C00E607A4 /* NationalParkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NationalParkDetailView.swift; path = "Slovak-Nature/View/NationalPark/NationalParkDetailView.swift"; sourceTree = SOURCE_ROOT; };
-		1A57801126178AAC00E607A4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = "Slovak-Nature/View/MapView.swift"; sourceTree = SOURCE_ROOT; };
-		1A8878EB26178047008F844D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelData.swift; path = "Slovak-Nature/ModelData.swift"; sourceTree = SOURCE_ROOT; };
 		1A95374D2617610600E28E18 /* Slovak-Nature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slovak-Nature.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9537502617610600E28E18 /* Slovak_NatureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slovak_NatureApp.swift; sourceTree = "<group>"; };
 		1A9537522617610600E28E18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A9537542617610700E28E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A9537572617610700E28E18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A9537592617610700E28E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A953763261763FA00E28E18 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
-		1A99918826185B2B009B70EF /* MapDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailView.swift; sourceTree = "<group>"; };
-		1A99918A26185D12009B70EF /* AdditionalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoView.swift; sourceTree = "<group>"; };
-		1AD2AC282617BB4D0094B842 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = "Slovak-Nature/View/BlurView.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,23 +33,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A8878EA26177F44008F844D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				1A8878EB26178047008F844D /* ModelData.swift */,
-				1A57800B261786BA00E607A4 /* NationalPark.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1A8878ED2617806D008F844D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1A5780072617859C00E607A4 /* nationalParksData.json */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		1A9537442617610600E28E18 = {
 			isa = PBXGroup;
 			children = (
@@ -89,10 +54,6 @@
 			children = (
 				1A9537502617610600E28E18 /* Slovak_NatureApp.swift */,
 				1A9537522617610600E28E18 /* ContentView.swift */,
-				1A9537652617644200E28E18 /* View */,
-				1A953762261763C800E28E18 /* Components */,
-				1A8878EA26177F44008F844D /* Model */,
-				1A8878ED2617806D008F844D /* Resources */,
 				1A9537542617610700E28E18 /* Assets.xcassets */,
 				1A9537592617610700E28E18 /* Info.plist */,
 				1A9537562617610700E28E18 /* Preview Content */,
@@ -106,34 +67,6 @@
 				1A9537572617610700E28E18 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		1A953762261763C800E28E18 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				1AD2AC282617BB4D0094B842 /* BlurView.swift */,
-				1A57801126178AAC00E607A4 /* MapView.swift */,
-				1A953763261763FA00E28E18 /* CustomShape.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		1A9537652617644200E28E18 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				1A99918726185B02009B70EF /* NationalPark */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1A99918726185B02009B70EF /* NationalPark */ = {
-			isa = PBXGroup;
-			children = (
-				1A57800F2617890C00E607A4 /* NationalParkDetailView.swift */,
-				1A99918A26185D12009B70EF /* AdditionalInfoView.swift */,
-				1A99918826185B2B009B70EF /* MapDetailView.swift */,
-			);
-			path = NationalPark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +126,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A5780082617859C00E607A4 /* nationalParksData.json in Resources */,
 				1A9537582617610700E28E18 /* Preview Assets.xcassets in Resources */,
 				1A9537552617610700E28E18 /* Assets.xcassets in Resources */,
 			);
@@ -206,14 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A57801226178AAC00E607A4 /* MapView.swift in Sources */,
-				1AD2AC292617BB4D0094B842 /* BlurView.swift in Sources */,
-				1A57800C261786BA00E607A4 /* NationalPark.swift in Sources */,
-				1A953764261763FA00E28E18 /* CustomShape.swift in Sources */,
-				1A99918926185B2B009B70EF /* MapDetailView.swift in Sources */,
-				1A99918B26185D12009B70EF /* AdditionalInfoView.swift in Sources */,
-				1A8878EC26178047008F844D /* ModelData.swift in Sources */,
-				1A5780102617890C00E607A4 /* NationalParkDetailView.swift in Sources */,
 				1A9537532617610600E28E18 /* ContentView.swift in Sources */,
 				1A9537512617610600E28E18 /* Slovak_NatureApp.swift in Sources */,
 			);
