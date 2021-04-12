@@ -9,7 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("ahoj")
+        ZStack {
+            Color("BackgrounMain")
+                .ignoresSafeArea()
+            
+            VStack{
+                HStack {
+                    Text("Featured")
+                        .font(.largeTitle)
+                        .fontWeight(.heavy)
+                        .padding()
+                    
+                    Spacer()
+                    
+                    MenuButton()
+                        .padding(.trailing, 25)
+                }
+                .padding(.top)
+                
+                
+                
+                FeaturedCard()
+                
+                
+                Spacer()
+            }
+        }
     }
 }
 
@@ -18,3 +43,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
