@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct FeaturedCard: View {
+    
+    var article: Article
+    
     var body: some View {
         ZStack{
-            Image("panorama-of-mountain")
+            article.titleImage
                 .resizable()
                 .aspectRatio(contentMode: .fill)
             
@@ -18,13 +21,13 @@ struct FeaturedCard: View {
                 Spacer()
                 HStack {
                     VStack(alignment: .leading) {
-                        Text("National Parks")
-                            .font(.title)
-                            .bold()
+                        Text(article.title)
+                            .font(.title3)
+                            .fontWeight(.heavy)
                             .padding(.bottom, 2.0)
                         
                         
-                        Text("There are 9 beautifull National Parks")
+                        Text(article.subtitle)
                             .font(.footnote)
                     }
                     .padding(.horizontal)
@@ -52,7 +55,8 @@ struct FeaturedCard: View {
 }
 
 struct FeaturedCard_Previews: PreviewProvider {
+    static var articles = ModelData().articles
     static var previews: some View {
-        FeaturedCard()
+        FeaturedCard(article: articles[1])
     }
 }

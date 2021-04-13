@@ -1,0 +1,27 @@
+[
+
+    {
+        "id" : 101,
+        "title" : "National Parks",
+        "subtitle" : "There are 9 beautifull National Parks",
+        "category": "Park",
+        "titleImageName" : "panorama-of-mountain",
+        "subImageName" : "slovakia-map-national-parks",
+        "introText" : "Slovakia’s national parks centre on the country’s greatest natural resource: its mountains.",
+        
+        "articleText" : "From the alpine High Tatras down to the hilly Poloniny in the secluded northeast, this wide variety of mountains provides the lifeblood of the nation, supplying the purest water and air, hosting its richest forests and inspiring most of its folklore. All of this is easy to find in and around the parks. \n \n Although mountains and hills stretch from one end of Slovakia to the other, it is the ranges in the eastern half of the country that have been granted the strictest protection afforded by national park status (though other categories of protected areas abound throughout the country). \n \nAll of the parks are accessible by road or by public transportation, although the quietest areas require more effort to get to. Each offers a variety of hiking for tourists at all levels, from novice to expert, through deep and extensive forests."
+    },
+
+    {
+        "id" : 102,
+        "title" : "Castles & Ruins of Slovakia",
+        "subtitle" : "Slovakia is a castle superpower",
+        "category": "Castle",
+        "titleImageName" : "demanovska_slobody",
+        "subImageName" : "slovakia-map-national-parks",
+        
+        "introText" : "The castles of Slovakia stand witness to earlier eras:",
+        "articleText" : "when the picturesque fortresses formed the last line of defence against various invasions from east and \nsoutheast in the middle ages…\nwhen they help troops ready to tear each other apart during the Reformation’s internecine wars…\nwhen the nobility simply wanted to keep its people in line…\nwhen the aristocracy of more recent centuries simply wanted to show off\n\nBeautiful exemplars of all periods and purposes abound here, some as eerie ruins and others as fully restored museum pieces. Never are you further than an easy day trip from a castle worth seeing. The following gives details on some of the country’s best-known castles."
+    }
+
+]

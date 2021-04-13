@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var modelData: ModelData
+    
     var body: some View {
         ZStack {
             Color("BackgrounMain")
@@ -29,7 +31,7 @@ struct ContentView: View {
                 
                 
                 
-                FeaturedCard()
+                FeaturedCard(article: modelData.articles[0])
                 
                 
                 Spacer()
@@ -41,6 +43,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(ModelData())
     }
 }
 
