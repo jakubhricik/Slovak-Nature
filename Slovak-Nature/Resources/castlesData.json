@@ -1,0 +1,40 @@
+[
+
+    {
+        "id" : 101,
+        "title" : "Spiš Castle",
+        "subtitle" : "Žehra",
+        "category": "Castle",
+        "titleImageName" : "spis-castle",
+        "introText" : "In the lands of Spis, the north-western region of Eastern Slovakia, large castle is standing proudly on the hill above the plebs."
+        
+    },
+
+    {
+        "id" : 102,
+        "title" : "Bojnice Castle",
+        "subtitle" : "Bojnice",
+        "category": "Castle",
+        "titleImageName" : "bojnice-castle",
+        "introText" : "Romantic fairy-tale Bojnice Castle is one of the most visited and most attractive castles in central Europe. The Chateau is located near Prievidza, on the edge of the Strážovské vrchy mountains over the town of Bojnice."
+    },
+    
+    {
+        "id" : 103,
+        "title" : "Orava Castle",
+        "subtitle" : "Oravský Podzámok",
+        "category": "Castle",
+        "titleImageName" : "orava-castle",
+        "introText" : "One the most beautiful and largest castles in Slovakia, in the northern Orava region, Orava Castle is situated on a high rock above Orava river."
+    },
+    
+    {
+        "id" : 104,
+        "title" : "Red Stone Castle",
+        "subtitle" : "Častá",
+        "category": "Castle",
+        "titleImageName" : "red-stone-castle",
+        "introText" : "Site of a medieval castle that was gradually pulled down, Cerveny Kamen (pronounced CHER-ven-ee KAH-men) retains that castle’s name (from “Rothstein” in German, meaning “red stone”)."
+    }
+
+]

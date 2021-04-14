@@ -35,7 +35,7 @@ struct FeaturedCard: View {
                     
                     Spacer()
                     
-                    Image("tundra")
+                    Image(article.category)
                         .resizable()
                         .scaledToFit()
                         .frame(width: 50, height: 50)
@@ -57,6 +57,6 @@ struct FeaturedCard: View {
 struct FeaturedCard_Previews: PreviewProvider {
     static var articles = ModelData().articles
     static var previews: some View {
-        FeaturedCard(article: articles[1])
+        FeaturedCard(article: articles[0])
     }
 }

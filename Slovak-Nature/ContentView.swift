@@ -30,8 +30,14 @@ struct ContentView: View {
                 .padding(.top)
                 
                 
+                ScrollView(.horizontal, showsIndicators: false){
+                    HStack(spacing: 18){
+                        ForEach(modelData.articles){ article in
+                            FeaturedCard(article: article)
+                        }
+                    }.padding()
+                }
                 
-                FeaturedCard(article: modelData.articles[0])
                 
                 
                 Spacer()
