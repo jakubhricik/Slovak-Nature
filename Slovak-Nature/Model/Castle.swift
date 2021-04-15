@@ -15,6 +15,9 @@ struct Castle: Hashable, Codable, Identifiable{
     var subtitle: String
     var category: String
     
+    var isTypForTrip: Bool
+    var isTypWithKids: Bool
+    
     private var titleImageName: String
     var titleImage: Image {
         Image(titleImageName)
